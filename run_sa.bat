@@ -1,0 +1,11 @@
+call activate
+python main.py --path inp_arg1_model_events --resultspath basic_1inps_100class_logsa4 --model Basic_1inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg2_model_events --resultspath basic_2inps_100class_logsa3 --model Basic_2inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg3_model_events --resultspath basic_3inps_100class_logsa3 --model Basic_3inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg1_model_events --resultspath basic_1inps_100class_logsa4 --model Basic_1inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg2_model_events --resultspath basic_2inps_100class_logsa4 --model Basic_2inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg3_model_events --resultspath basic_3inps_100class_logsa4 --model Basic_3inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg1_model_events --resultspath basic_1inps_100class_logsa5 --model Basic_1inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg2_model_events --resultspath basic_2inps_100class_logsa5 --model Basic_2inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+@REM python main.py --path inp_arg3_model_events --resultspath basic_3inps_100class_logsa5 --model Basic_3inp --epoch 1000 --lr 0.001 --batch 1024 --normalize standard --datapre data_preprocess_100class_logsa.pkl --kernel 11 --plots 1
+pause
